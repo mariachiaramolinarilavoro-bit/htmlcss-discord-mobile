@@ -8,7 +8,7 @@ header img {
     width: 100%;
 }
 
-/*Header*/
+/*/Header*/
 
 body {
     background-color: rgb(22, 22, 80);
@@ -30,11 +30,19 @@ h2 {
     line-height: 1;
 }
 
-/*Class first div*/
-
-.title {
-    font-family: Sigmar;
+img {
+    width: 100px;
 }
+
+video {
+    height: 200px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+/*/Tag*/
+
+/*Class*/
 
 .button {
     padding: 12px;
@@ -50,6 +58,24 @@ h2 {
     background-color: rgb(67, 62, 208);
 }
 
+.title {
+    font-family: Sigmar;
+}
+
+/*Img class*/
+
+.icon {
+    position: absolute;
+}
+
+.border-img {
+    height: 200px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+/*/Img class*/
+
 .group {
     padding: 50px;
     border-radius: 30px;
@@ -58,19 +84,4 @@ h2 {
     text-align: left;
 }
 
-
-/*Class second div*/
-
-.border-img {
-    height: 200px;
-    width: 260px;
-    border-radius: 20px;
-}
-
-.icon {
-    position: absolute;
-}
-
-img {
-    width: 100px;
-}
+/*/Class/
