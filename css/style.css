@@ -1,11 +1,45 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 512px;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100%;
 }
 
 /*Header*/
 
 body {
-    width: 512px
+    background-color: rgb(22, 22, 80);
+    width: 512px;
+    text-align: center;
+    color: white
 }
+
+div {
+    font-family: DM Sans;
+    margin: 80px;
+}
+
+/*Class div*/
+
+.title {
+    font-family: Sigmar;
+}
+
+.button {
+    padding: 12px;
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.button-open {
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(67, 62, 208);
+}
+
+/*/Class div*/
