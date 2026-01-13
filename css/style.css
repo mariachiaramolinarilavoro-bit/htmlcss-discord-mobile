@@ -22,7 +22,15 @@ div {
     margin: 80px;
 }
 
-/*Class div*/
+h1 {
+    line-height: 1;
+}
+
+h2 {
+    line-height: 1;
+}
+
+/*Class first div*/
 
 .title {
     font-family: Sigmar;
@@ -42,4 +50,27 @@ div {
     background-color: rgb(67, 62, 208);
 }
 
-/*/Class div*/
+.group {
+    padding: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(67, 62, 208);
+    text-align: left;
+}
+
+
+/*Class second div*/
+
+.border-img {
+    height: 200px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.icon {
+    position: absolute;
+}
+
+img {
+    width: 100px;
+}
